@@ -1,0 +1,51 @@
+body {
+	background-color: #eee;
+	display: flex;
+	flex-direction: column;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+#including {
+	width: 15%;
+}
+
+s {
+	text-decoration-thickness: 5px;
+}
+
+#catalogue {
+	display: flex;
+	flex-direction: column;
+	background-color: #ddd;
+	border-radius: 10px;
+	box-shadow: 0 -4px 4px #ccc inset;
+}
+
+#context {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2.5%;
+	width: 85%;
+	background-color: #fff;
+	box-shadow: 0 -1px 4px #aaa;
+	border-radius: 10px;
+	height: auto;
+}
+
+.list {
+	list-style: none;
+}
+
+.item {
+	color: #000;
+}
+
+.guid {
+	text-decoration: none;
+}
